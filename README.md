@@ -1,3 +1,5 @@
 # open-tiku-docs
 
-开放题库产品说明文档, 暂时先记录在该库中, 后续摸索有没有适合的文档, 如果没有后续我会把这个部署成 github.io 访问的方式使用该文档
+开放题库产品说明文档
+
+文档提交后自动发布到 [open-tiku-docs](https://open-education.github.io/open-tiku-docs/)
