@@ -17,13 +17,13 @@ parent: 目录结构
 
 初始是没有任何数据的,
 
-![image]({{ './images/init.png' | relative_url}})
+![image]({{ '/assets/images/cagalog/init.png' | relative_url}})
 
 维护我们的导航菜单, 我们只需要关系 **字典** 一栏目即可, 进入 字典
 
 ## 字典
 
-![image]({{ './images/dict-init.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/dict-init.png' | relative_url }})
 
 字典目前共有3项配置信息, 其中 **教材元数据配置** 就是我们说的前 5 层菜单, 类似 **数学-湘教版-初中-教材章节-七年级上册**, 如果是知识点类似 **数学-湘教版-初中-知识点类-数与代数(S)-第一章 有理数(S-1)**
 
@@ -33,13 +33,13 @@ parent: 目录结构
 
 ### 教材元数据配置
 
-![image]({{ 'images/5-level-init.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/5-level-init.png' | relative_url }})
 
 首次配置时是没有任何数据的, 我们添加一个 一级菜单 **数学**, 点击 添加菜单
 
 #### 添加一级菜单
 
-![image]({{ 'images/5-level-menu.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/5-level-menu.png' | relative_url }})
 
 **父级菜单** 就是当前你要添加菜单的所属 **父级**, 此时我们要添加的 **数学** 本身是最父级的菜单, 它没有父级, 所以本次我们不做选择留空即可
 
@@ -51,17 +51,17 @@ parent: 目录结构
 
 下面就是我填写完毕的表单样式
 
-![image]({{ 'images/5-level-menu-1.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/5-level-menu-1.png' | relative_url }})
 
 点击提交, 提交成功后右边弹出的抽屉窗口会自行消失, 此时就能看到我们刚新建的菜单了
 
-![image]({{ 'images/5-level-math.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/5-level-math.png' | relative_url }})
 
 如果你创建出来发觉比如排序或者文字等输入不理想其实可以有两种方法, 一种是直接删除重新建一个, 一种是编辑将其修改为期望的内容后重新提交即可, 比如下面我想把 **数学** 改成 **基础数学**
 
-![image]({{ 'images/math-fix1.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/math-fix1.png' | relative_url }})
 
-![image]({{ 'images/math-fix2.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/math-fix2.png' | relative_url }})
 
 当然我们这里仅仅是演示, 因为我们本身就是要新建 **数学菜单**, 你用同样的方式修改回去即可
 
@@ -71,21 +71,21 @@ parent: 目录结构
 
 此时你就要注意自己当前添加的菜单位置了, 比如我们要添加的 **湘教版** 应该是挂载在一级菜单 **数学** 下面, 所以此时就要选择 **父级菜单** 了
 
-![image]({{ 'images/add-2-1.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/add-2-1.png' | relative_url }})
 
 当然我们目前只有一个 **数学** 不觉得, 后续维护的菜单多了, 这个问题就要更清晰了解自己要新建什么了
 
 输入 **湘教版** , 排序编号也是一样的道理, 要知道自己新建的 菜单大致在上面位置, 排序只关注当前层级, 前套层级互相不受影响, 所以这里输入 1 就是想在 **数学** 菜单下排在最前面, 因为后面可能会有 **人教版** 等的菜单出现
 
-![image]({{ 'images/add-2-2.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/add-2-2.png' | relative_url }})
 
 添加完成后抽屉消失正常就能看到添加结果了
 
-![image]({{ 'images/add-2-3.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/add-2-3.png' | relative_url }})
 
 如果没有看到, 前面会有一个箭头, 点击展开即可
 
-![image]({{ 'images/add-2-4.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/add-2-4.png' | relative_url }})
 
 #### 添加三-五级菜单
 
@@ -93,11 +93,11 @@ parent: 目录结构
 
 你按上面的方法添加完毕后大概是类似下面这样的
 
-![image]({{ 'images/5-level-done.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/5-level-done.png' | relative_url }})
 
 这里只限制添加到 5 级即可, 不能添加更深的层级, 更深的层级因为已经具体到教材和知识点了, 已经剥离到其它地方来维护, 如果你忘记了会像下面这样提示你
 
-![image]({{ 'images/5-level-err.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/5-level-err.png' | relative_url }})
 
 到此为止, 我们已经维护了一份比较完善的目录结构了, 当然距离我们可以去维护题目还差了最后的 3 层
 
@@ -111,7 +111,7 @@ parent: 目录结构
 
 这里我就演示在 **教材章节-七年级上册** 下新建的步骤, 知识点等都是一样的操作方法, 我们要先选择到 **七年级上册**
 
-![image]({{ 'images/3-1.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/3-1.png' | relative_url }})
 
 然后我们要知道我们接下来是要做什么? 我们是要在 **七年级上册** 这本书给它创建目录, 而这本书的目录我们事先都是准备好的
 
@@ -119,7 +119,7 @@ parent: 目录结构
 
 添加 **第一章 有理数**
 
-![image]({{ 'images/add-3-1.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/add-3-1.png' | relative_url }})
 
 保存后按道理第三步的地方就能看到添加结果了
 
@@ -127,17 +127,17 @@ parent: 目录结构
 
 操作第二步的追加就能在第三步看到添加结果
 
-![image]({{ 'images/add-3-2.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/add-3-2.png' | relative_url }})
 
 如果是同级目录, 继续在第二步添加即可, 直到添加完毕你期望的内容
 
 目录下面还有章节, 此时回到 第一步 我们选择又可以继续深入到下一层, 类似这样
 
-![image]({{ 'images/add-6-1.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/add-6-1.png' | relative_url }})
 
 此时我们就看到了我们刚添加完毕的 **第一章 有理数**, 接下来我们要继续添加该章节下面的 **1.1 认识负数**
 
-![image]({{ 'images/add-7-1.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/add-7-1.png' | relative_url }})
 
 也是添加完毕后第三步就能看到结果, 如果有要修改的内容直接在 第三步 右边的区域就可以修改, 这里我就不演示了
 
@@ -151,7 +151,7 @@ parent: 目录结构
 
 > 目前我们的层级关系都是一对一的, 不支持多对多, 如果要支持多对多题目会是重复的, 当然如果后面有的知识点分的比章节还细, 或者有的知识点是合并了2个以上的章节的, 我们在研究如何区分他们. 否则我们从不同的入口进入都能看大一样的题目
 
-![image]({{ 'images/rel-7.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/rel-7.png' | relative_url }})
 
 建立关联和会在下一步查询关联关系, 这一步不是自动展示, 需要你主动查询
 
@@ -159,7 +159,7 @@ parent: 目录结构
 
 一般来说从教材章节或者知识点的维度单方面查询到就已经建立关联了
 
-![image]({{ 'images/rel-7-2.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/rel-7-2.png' | relative_url }})
 
 如果不是期望的需要先解除关联后才能重新建立关联关系, 建立关联关系完毕后就要到下一步 追加题型了
 
@@ -169,7 +169,7 @@ parent: 目录结构
 
 我从教材章节维度添加, 我们建立第 8 层题型 **S-1.1.1 用正负数表示相反意义的量(模型观念)**
 
-![image]({{ 'images/add-8-1.png' || relative_url }})
+![image]({{ '/assets/images/cagalog/add-8-1.png' || relative_url }})
 
 点击追加后在下一步查看追加结果, 需要主动查询才能看到结果
 
@@ -177,7 +177,7 @@ parent: 目录结构
 
 可以从教材章节或者知识点维度查看已追加的题型列表
 
-![image]({{ 'images/add-8-2.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/add-8-2.png' | relative_url }})
 
 如果发现层级错误或者文字错误, 直接删除重新追加即可
 
@@ -185,9 +185,9 @@ parent: 目录结构
 
 此时如果你打开前端就会看到完成的菜单了
 
-![image]({{ 'images/add-9-1.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/add-9-1.png' | relative_url }})
 
-![image]({{ 'images/add-9-2.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/add-9-2.png' | relative_url }})
 
 ### 其它元数据配置
 
@@ -199,4 +199,4 @@ parent: 目录结构
 
 这些东西按学段配置就可以了, 比如初中数学基本都是一类的题型, 少数差异冗余即可问题不大
 
-![image]({{ 'images/other-1-1.png' | relative_url }})
+![image]({{ '/assets/images/cagalog/other-1-1.png' | relative_url }})
