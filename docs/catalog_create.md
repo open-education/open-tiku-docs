@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 开放题库目录维护
+title: 目录维护
 nav_order: 3
 ---
 
