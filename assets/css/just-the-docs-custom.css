@@ -1,0 +1,11 @@
+:root {
+  --nav-width: 250px;      /* 侧边栏宽度 */
+  --content-width: 1300px; /* 内容区宽度 */
+}
+
+/* 如果你想彻底取消限制，让它随屏幕宽度自适应 */
+@media (min-width: 60rem) {
+  .main-content-wrap {
+    max-width: 95%; /* 留 5% 的边距防止贴边 */
+  }
+}
