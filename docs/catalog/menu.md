@@ -17,13 +17,13 @@ parent: 目录结构
 
 初始是没有任何数据的,
 
-![image]({{ 'images/init.png' | relative_url}})
+![image]({{ './images/init.png' | relative_url}})
 
 维护我们的导航菜单, 我们只需要关系 **字典** 一栏目即可, 进入 字典
 
 ## 字典
 
-![image]({{ 'images/dict-init.png' | relative_url }})
+![image]({{ './images/dict-init.png' | relative_url }})
 
 字典目前共有3项配置信息, 其中 **教材元数据配置** 就是我们说的前 5 层菜单, 类似 **数学-湘教版-初中-教材章节-七年级上册**, 如果是知识点类似 **数学-湘教版-初中-知识点类-数与代数(S)-第一章 有理数(S-1)**
 
