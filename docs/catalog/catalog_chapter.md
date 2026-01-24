@@ -1,7 +1,8 @@
 ---
 layout: default
 title: 章节选题
-nav_order: 2
+nav_order: 1
+parent: 目录结构
 ---
 
 # 人工智能赋能初中数学精准教学目录建设-章节选题

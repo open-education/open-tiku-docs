@@ -1,7 +1,8 @@
 ---
 layout: default
 title: 考点选题
-nav_order: 4
+nav_order: 2
+parent: 目录结构
 ---
 
 # 人工智能赋能初中数学精准教学目录建设-考点选题
